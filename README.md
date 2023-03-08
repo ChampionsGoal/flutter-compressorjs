@@ -1,15 +1,13 @@
 # flutter_compressorjs
 
-A new Flutter plugin project.
+Basic wrapper of [CompressorJS](https://github.com/fengyuanchen/compressorjs) for flutter web.
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+add flutter-compressorjs to your flutter project
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    flutter pub add flutter_compressorjs
 
+add to your `web/index.html` header
+
+    https://cdnjs.cloudflare.com/ajax/libs/compressorjs/1.2.1/compressor.min.js
